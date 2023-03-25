@@ -29,7 +29,7 @@ if (isset($_GET['logout'])) {
 
 <body>
     <h2>
-        selamat datan <?php echo $_SESSION['admin_name']?>
+        selamat datang <?php echo $_SESSION['admin_name']?>
         test
     </h2>
     <a class="btn btn-danger" aria-current="page" href="welcome.php?logout=1">Logout</a>
